@@ -14,6 +14,8 @@ This repository stores design and behavior notes as Markdown + Mermaid diagrams.
 <details>
   <summary><strong>ganbare_app</strong> — Ganbare app design and behavior docs</summary>
 
+  **Summary:** status: **active** | owner: `team` | documents: **20** | last updated: **2026-05-27**
+
   | File | Type | What it covers |
   |---|---|---|
   | [`00-INDEX.md`](./ganbare_app/00-INDEX.md) | Diagram index | Catalog of Ganbare design references and how to navigate them |
@@ -41,6 +43,8 @@ This repository stores design and behavior notes as Markdown + Mermaid diagrams.
 <details>
   <summary><strong>amara_college</strong> — Narrative game reference diagrams</summary>
 
+  **Summary:** status: **active** | owner: `team` | documents: **8** | last updated: **2026-05-27**
+
   | File | Type | What it covers |
   |---|---|---|
   | [`README.md`](./amara_college/README.md) | Index | Mermaid reference pack guidance and usage notes |
@@ -55,6 +59,8 @@ This repository stores design and behavior notes as Markdown + Mermaid diagrams.
 
 <details>
   <summary><strong>Upcoming projects</strong> — add here as new folders grow</summary>
+
+  **Summary:** status: **planning** | owner: `TBD` | documents: **0** | last updated: **N/A**
 
   - `project_name/` (placeholder for next docs bundle)
   - `project_name/` (placeholder for next docs bundle)
