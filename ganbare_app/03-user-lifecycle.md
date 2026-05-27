@@ -1,4 +1,4 @@
-# 03 — User lifecycle
+# 03 - User Lifecycle
 
 The states a user account moves through, from first-time visitor to fully-onboarded student. Useful when you're reasoning about what a given user *can* and *can't* do.
 

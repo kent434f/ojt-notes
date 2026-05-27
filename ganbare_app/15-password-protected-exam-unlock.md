@@ -1,4 +1,4 @@
-# 15 — Password-protected exam unlock
+# 15 - Password-Protected Exam Unlock
 
 For exams with `exam.password` set, the student has to enter it before the take page will render. The unlock is cookie-based and lasts 4 hours.
 

@@ -1,9 +1,9 @@
-# Confrontation and Endings
+# 04 - Confrontation and Endings
 
 Three charts: which evidence breaks which of Gideon's defenses on the rooftop,
 which choice menu the player gets per case band, and the full ending dispatch.
 
-## 1. Rooftop rebuttals — what each defense requires
+## 1. Rooftop Rebuttals - What Each Defense Requires
 
 The confrontation is structured as four defenses. Each one is broken only by
 the matching evidence. The tape always lands (it's a spine clue); everything

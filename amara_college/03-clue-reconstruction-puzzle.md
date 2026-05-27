@@ -1,4 +1,4 @@
-# Puzzle (Clue Reconstruction)
+# 03 - Clue Reconstruction Puzzle
 
 Three charts: the screen as a state machine, how the card list is filtered by
 the earned flags, and the contract between the puzzle screen and the story.
@@ -66,7 +66,7 @@ flowchart TD
     class SS full
 ```
 
-## 3. Screen ↔ story contract
+## 3. Screen and Story Contract
 
 The puzzle screen is a UI component, not a story owner. This is what keeps
 the puzzle replayable, rollback-safe, and inspectable from `script.rpy`.

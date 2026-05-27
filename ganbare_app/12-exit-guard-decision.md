@@ -1,4 +1,4 @@
-# 12 — Exit guard decision
+# 12 - Exit Guard Decision
 
 The decision tree for `hooks/use-exam-exit-guard.ts`. This is the hook that prevents a student from accidentally throwing away 90 minutes of work.
 

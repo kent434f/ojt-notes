@@ -1,4 +1,4 @@
-# 09 — Starting an exam
+# 09 - Starting an Exam
 
 What happens when a verified student clicks "Take Exam" on an exam they've never started before. Code lives in `app/exam/[examId]/take/page.tsx`.
 

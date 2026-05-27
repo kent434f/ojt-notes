@@ -1,9 +1,9 @@
-# Clues and Case Strength
+# 02 - Clues and Case Strength
 
 Four charts: which scene sets which flag, how case strength is computed, the
 `financial → testimony` causal rewire, and the full input-to-outcome matrix.
 
-## 1. Clue flag map — where each flag is set
+## 1. Clue Flag Map - Where Each Flag Is Set
 
 Three "spine" clues are always set on a normal playthrough. Three "missable"
 clues depend on which choices the player made.
@@ -68,7 +68,7 @@ flowchart TD
     class Weak weak
 ```
 
-## 3. The causal rewire — `financial → Castillo → testimony`
+## 3. Causal Rewire - `financial` to `Castillo` to `testimony`
 
 `act3_ally_castillo` used to set `ally_teacher_b = True` unconditionally.
 After the rewire, it only flips true when the player can show the money. This
@@ -96,7 +96,7 @@ flowchart LR
     class T0,NTOK,NotBreak bad
 ```
 
-## 4. Input matrix — what unlocks what
+## 4. Input Matrix - What Unlocks What
 
 A compact view of how individual missable clues snowball through the system.
 

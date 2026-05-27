@@ -1,4 +1,4 @@
-# 02 — Data model (ERD)
+# 02 - Data Model
 
 Every Prisma table and how they relate. The source of truth is `prisma/schema.prisma` — if this diagram drifts, fix the diagram.
 

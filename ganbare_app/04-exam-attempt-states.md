@@ -1,4 +1,4 @@
-# 04 — Exam attempt states
+# 04 - Exam Attempt States
 
 How an `ExamAttempt` row moves through its lifecycle. Read this before touching anything in `/api/exam/*`.
 

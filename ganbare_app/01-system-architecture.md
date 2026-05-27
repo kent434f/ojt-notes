@@ -1,4 +1,4 @@
-# 01 — System architecture
+# 01 - System Architecture
 
 The whole stack on one page. Use this when you're trying to figure out where a piece of work lives, or which service is responsible for a given concern.
 

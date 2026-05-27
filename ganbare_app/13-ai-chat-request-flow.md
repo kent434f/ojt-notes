@@ -1,4 +1,4 @@
-# 13 — AI chat request flow
+# 13 - AI Chat Request Flow
 
 A single student message in Study Mode's AI tab, from typing to streamed response. Code: `components/study-chatbot.tsx` and `app/api/chat/route.ts`.
 

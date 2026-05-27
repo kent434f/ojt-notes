@@ -1,4 +1,4 @@
-# How-To Decision Trees
+# 07 - How-To Decision Trees
 
 Five charts for the most common contributor tasks. Each one starts with the
 question you're trying to answer and ends with concrete files to touch.

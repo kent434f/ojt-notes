@@ -1,4 +1,4 @@
-# Architecture
+# 06 - Architecture
 
 Three charts: file dependency graph (what reads what), the save/load state
 lifecycle, and the character + sprite + position system.

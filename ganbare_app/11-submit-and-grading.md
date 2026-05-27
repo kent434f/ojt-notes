@@ -1,4 +1,4 @@
-# 11 — Submit & grading
+# 11 - Submit and Grading
 
 What happens when the student hits "Submit Exam" (or the timer runs out and auto-submits). Code lives in `app/api/exam/submit/route.ts`.
 

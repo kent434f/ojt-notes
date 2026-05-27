@@ -1,4 +1,4 @@
-# 06 — Registration & email verification
+# 06 - Registration and Email Verification
 
 The full path from "I'm new here" to "I have a verified account." Spans `app/register/page.tsx`, `app/api/register/route.ts`, `lib/tokens.ts`, `lib/email.ts`, and `app/verify-email/page.tsx`.
 

@@ -1,34 +1,35 @@
-# Mermaid Reference Pack — Collegio de Amara: The Pale Warden
+# Amara College
 
-A visual companion to `intern-explainer.md`. Every file in this folder is a set
-of Mermaid diagrams grouped by topic. Use them as a lookup, not a read-through.
+## Overview
 
-> **How to view:** any modern Markdown viewer renders Mermaid (GitHub, VS Code
-> with the Markdown Preview Mermaid Support extension, Obsidian, Typora). If
-> your viewer doesn't, paste the code block into <https://mermaid.live> to
-> render it standalone.
+Mermaid reference pack for *Collegio de Amara: The Pale Warden*. These diagrams document story flow, clue logic, puzzle behavior, endings, build checks, and implementation architecture.
+
+## How to use
+
+- **Story review:** start with the story flow, clue logic, puzzle, and endings files.
+- **Implementation review:** use the architecture and build/CI files to trace code ownership and validation paths.
+- **Contributor work:** use the how-to decision trees before adding clues, endings, puzzle cards, or CI fixes.
 
 ## Files
 
-| File | What's in it |
-|---|---|
-| [`01-story-flow.md`](01-story-flow.md) | The four-act spine and a per-act flow with all branches, choices, and placeholder labels. |
-| [`02-clues-and-case-strength.md`](02-clues-and-case-strength.md) | Where each clue flag is set, how `case_strong / partial / weak` is computed, the `financial → Castillo` causal rewire. |
-| [`03-puzzle.md`](03-puzzle.md) | The clue-reconstruction screen as a state machine; how the card list is filtered by earned clues; what the screen returns and who owns the result. |
-| [`04-confrontation-and-endings.md`](04-confrontation-and-endings.md) | Which evidence breaks which of Gideon's defenses on the rooftop; which menu the player gets per case band; the four endings. |
-| [`05-build-and-ci.md`](05-build-and-ci.md) | Pre-commit hook, CI lint job, web build, Vercel deploy with smoke test, and a coverage map of which validator protects what. |
-| [`06-architecture.md`](06-architecture.md) | File dependency graph, save/load state lifecycle, the character + sprite + position system. |
-| [`07-how-to.md`](07-how-to.md) | Decision-tree style flows for the most common contributor tasks: adding a clue, adding an ending, adding a puzzle card, diagnosing a CI failure, finding which file to edit. |
+| # | File | Type | What it covers |
+|---|---|---|---|
+| 01 | [`01-story-flow.md`](./01-story-flow.md) | Flowchart | Four-act narrative structure, branches, choices, and placeholder labels |
+| 02 | [`02-clues-and-case-strength.md`](./02-clues-and-case-strength.md) | State/decision flow | Clue flags, case strength computation, and evidence dependencies |
+| 03 | [`03-clue-reconstruction-puzzle.md`](./03-clue-reconstruction-puzzle.md) | State machine | Clue reconstruction screen, card filtering, and story contract |
+| 04 | [`04-confrontation-and-endings.md`](./04-confrontation-and-endings.md) | Decision flow | Rooftop rebuttals, case-band menus, and ending dispatch |
+| 05 | [`05-build-and-ci.md`](./05-build-and-ci.md) | Process flow | Pre-commit checks, CI linting, web build, deployment, and validation coverage |
+| 06 | [`06-architecture.md`](./06-architecture.md) | Architecture | File dependencies, save/load lifecycle, and character rendering system |
+| 07 | [`07-how-to-decision-trees.md`](./07-how-to-decision-trees.md) | How-to flow | Contributor decision trees for common maintenance tasks |
 
-## A note on chart syntax
+## Mermaid notes
 
-Charts here lean on a small set of Mermaid features for portability:
+Most files use portable Mermaid syntax:
 
-- `flowchart TD` (top-down) and `flowchart LR` (left-right)
-- `stateDiagram-v2` for screen state
-- `sequenceDiagram` for save/load and similar over-time flows
-- Subgraphs for grouping
-- `classDef` styling for highlighting (problems, fixes, hard limits)
+- `flowchart TD` and `flowchart LR`
+- `stateDiagram-v2`
+- `sequenceDiagram`
+- `subgraph`
+- `classDef`
 
-If a diagram looks broken in your viewer, paste it into <https://mermaid.live>
-to confirm whether it's the chart or the viewer.
+If a diagram does not render in a Markdown viewer, paste the diagram block into <https://mermaid.live> to check whether the issue is the chart or the viewer.

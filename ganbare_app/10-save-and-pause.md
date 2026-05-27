@@ -1,4 +1,4 @@
-# 10 — Save & pause
+# 10 - Save and Pause
 
 How an in-progress exam attempt persists its state. Code lives in `app/exam/[examId]/take/exam-client.tsx` (the client) and `app/api/exam/save/route.ts` (the API).
 

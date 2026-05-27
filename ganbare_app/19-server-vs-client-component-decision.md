@@ -1,4 +1,4 @@
-# 19 — Server vs client component decision
+# 19 - Server vs Client Component Decision
 
 When you're adding a new component, this is the decision tree we use. The default is **server component** — only reach for `"use client"` when you have a concrete reason.
 

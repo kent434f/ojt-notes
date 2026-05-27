@@ -1,4 +1,4 @@
-# 14 — Shuffled exam construction
+# 14 - Shuffled Exam Construction
 
 How the `?shuffle=true` query param turns into a uniquely-ordered attempt with a shareable exam code. Code lives at the bottom of `app/exam/[examId]/take/page.tsx`.
 

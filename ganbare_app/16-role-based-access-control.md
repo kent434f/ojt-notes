@@ -1,4 +1,4 @@
-# 16 — Role-based access control
+# 16 - Role-Based Access Control
 
 How a single HTTP request gets authorized. There's no single middleware doing all of it — checks are layered at each level.
 

@@ -1,4 +1,4 @@
-# 05 — Study mode question states
+# 05 - Study Mode Question States
 
 In Study Mode (`app/exam/[examId]/study/study-client.tsx`), each question has a status that drives UI color and whether the rationale/AI-chat tabs unlock.
 

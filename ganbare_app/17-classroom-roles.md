@@ -1,4 +1,4 @@
-# 17 — Classroom roles
+# 17 - Classroom Roles
 
 How users, classrooms, and the join paths fit together. The schema has only two role enums (`STUDENT`, `ADMIN`), but classrooms add a per-classroom membership layer.
 

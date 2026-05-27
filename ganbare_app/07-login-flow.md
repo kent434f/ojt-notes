@@ -1,4 +1,4 @@
-# 07 — Login flow
+# 07 - Login Flow
 
 What happens when an existing user signs in. Code lives in `app/login/page.tsx` and `lib/auth.ts`.
 

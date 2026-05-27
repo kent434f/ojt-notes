@@ -1,4 +1,4 @@
-# 18 — Stats aggregation
+# 18 - Stats Aggregation
 
 How `getUserStats(userId)` in `lib/stats/get-user-stats.ts` builds the payload that powers `/my-stats`. It's data-heavy but kept fast by issuing queries in parallel and chaining dependent ones off their prerequisites.
 

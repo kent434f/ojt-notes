@@ -1,4 +1,4 @@
-# Build and CI
+# 05 - Build and CI
 
 Four charts: local pre-commit, CI lint job, web build + Vercel deploy, and a
 coverage map of which validator protects which silent-failure mode.
@@ -83,7 +83,7 @@ flowchart TD
     class Done done
 ```
 
-## 4. Validator coverage — which script protects what
+## 4. Validator Coverage - Which Script Protects What
 
 Each validator exists because some silent-failure mode would otherwise ship.
 This is the design principle: every silent failure mode gets a loud validator.

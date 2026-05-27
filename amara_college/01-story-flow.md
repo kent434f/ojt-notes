@@ -1,4 +1,4 @@
-# Story Flow
+# 01 - Story Flow
 
 Five charts: the top-level four-act spine, then each act with its branches,
 choices, clue-setters, and placeholder labels.
@@ -26,7 +26,7 @@ flowchart TD
     class E1,E2,E3,E4 ending
 ```
 
-## 2. Act 1 — The Scene
+## 2. Act 1 - The Scene
 
 Cold open is a placeholder. After the scream, the player gets two
 choice points; both lead to the nurse, then a placeholder atmosphere beat.
@@ -53,7 +53,7 @@ flowchart TD
     class Sym,NB setsflag
 ```
 
-## 3. Act 2 — The Investigation
+## 3. Act 2 - The Investigation
 
 This is where the missable evidence lives. The "Head back" option is what
 makes the weak case band reachable — without it, players would always pick
@@ -85,11 +85,11 @@ flowchart TD
     class End escape
 ```
 
-## 4. Act 3 — The Unraveling
+## 4. Act 3 - The Unraveling
 
 Recording and confession are always picked up (spine). The puzzle is what the
 investigation work pays off into — and the puzzle's behavior depends on how
-many cards the player earned (see `03-puzzle.md`).
+many cards the player earned (see `03-clue-reconstruction-puzzle.md`).
 
 ```mermaid
 flowchart TD
@@ -125,7 +125,7 @@ flowchart TD
     class Succ,Part,Skip,Fail puzzle
 ```
 
-## 5. Act 4 — The Confrontation
+## 5. Act 4 - The Confrontation
 
 Case strength is computed at the top of `act4_intro`. The confrontation runs
 all gated rebuttals, then the choice menu the player gets depends on which

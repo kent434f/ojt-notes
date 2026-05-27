@@ -1,4 +1,4 @@
-# 08 — Password reset
+# 08 - Password Reset
 
 Forgot-password flow end to end. Spans `app/forgot-password/page.tsx`, `app/api/auth/forgot-password/route.ts`, `app/api/auth/reset-password/route.ts`, and `app/reset-password/page.tsx`.
 
